@@ -8,7 +8,7 @@ int main() {
     int n=(a>>31)&1;
     
 
-    if(a%2==1)
+    if(n==1)
     printf("Set");
     else
     printf("Not Set");
