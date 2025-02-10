@@ -5,7 +5,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    int lsb;
+    int lsb=1;
     int p=0;
     while(lsb!=0){
         lsb=(a>>p)&1;
