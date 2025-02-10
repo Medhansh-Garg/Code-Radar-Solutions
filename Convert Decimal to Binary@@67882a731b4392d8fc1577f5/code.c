@@ -7,7 +7,7 @@ int main() {
     int b=0;
     int d=0;
     while(a>0){
-        d=a%10;
+        d=(int)a%10;
         if(d%2==0){
             b=b*10;
         }
