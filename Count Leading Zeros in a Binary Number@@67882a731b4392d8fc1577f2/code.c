@@ -14,7 +14,7 @@ int main() {
         }
 
     }
-    printf("%d",32-a);
+    printf("%d",32-a-1);
     
     return 0;
 }
