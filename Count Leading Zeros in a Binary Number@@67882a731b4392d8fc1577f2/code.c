@@ -18,7 +18,7 @@ int main() {
         printf("%d",0);
     }
     else
-    printf("%d",32-a-1);
+    printf("%d",32-pos-1);
     
     return 0;
 }
