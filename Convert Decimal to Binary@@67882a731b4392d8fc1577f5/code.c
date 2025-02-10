@@ -4,6 +4,16 @@
 int main() {
     int a;
     scanf("%d",&a);
-    printf("%B",a);
+    int b=0;
+    int d=0
+    while(a>0){
+        d=a%10;
+        
+
+        b=b*10+(d%2);
+        a=a/10;
+
+    }
+    print(a)
     return 0;
 }
