@@ -14,6 +14,6 @@ int main() {
         a=a/10;
 
     }
-    printf("%d",a);
+    printf("%d",b);
     return 0;
 }
