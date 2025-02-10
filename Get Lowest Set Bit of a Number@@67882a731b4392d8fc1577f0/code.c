@@ -12,6 +12,6 @@ int main() {
         p++;
 
     }
-    printf("%d",p)
+    printf("%d",p);
     return 0;
 }
