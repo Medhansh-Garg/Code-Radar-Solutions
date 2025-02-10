@@ -10,6 +10,8 @@ int main() {
         if(a%2==1){
             break;
             }
+
+        a=a/2;
         c++;
     }
     printf("%d",c);
