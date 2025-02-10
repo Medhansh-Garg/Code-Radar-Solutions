@@ -3,7 +3,7 @@
 
 
 int main() {
-    double pow;
+    
     int a,b;
     scanf("%d %d",&a,&b);
     int c=(a>>b)&1;
@@ -12,7 +12,7 @@ int main() {
 
     }
     if(c==1){
-        int d=a-(int)pow(2,b);
+        int d=a-(int)pow(2.0,(double)b);
         printf("%d",d);
     }
 
