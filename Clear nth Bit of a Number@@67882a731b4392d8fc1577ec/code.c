@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
 
 
 int main() {
@@ -11,7 +11,7 @@ int main() {
 
     }
     if(c==1){
-        int d=a-2**b;
+        int d=a-2b;
         printf("%d",b);
     }
 
