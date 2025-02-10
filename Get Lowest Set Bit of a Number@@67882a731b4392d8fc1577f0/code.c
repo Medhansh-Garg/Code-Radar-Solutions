@@ -8,7 +8,7 @@ int main() {
     int lsb=0;
     int p=0;
     while(lsb!=1){
-        lsb=(a<<p)&1;
+        lsb=(a>>p)&1;
         p++;
 
     }
