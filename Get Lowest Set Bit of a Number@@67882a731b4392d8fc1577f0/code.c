@@ -5,7 +5,13 @@
 int main() {
     int a;
     scanf("%d",&a);
-    int lsb=(1>>0)&1;
-    printf("%d",lsb);
+    int lsb;
+    int p=0;
+    while(lsb!=0){
+        lsb=(a>>p)&1;
+        p++;
+
+    }
+    printf("%d",p)
     return 0;
 }
