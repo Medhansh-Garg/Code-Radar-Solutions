@@ -13,7 +13,7 @@ int main() {
         }
 
     }
-    printf("%d",32-i)
+    printf("%d",32-i);
     
     return 0;
 }
