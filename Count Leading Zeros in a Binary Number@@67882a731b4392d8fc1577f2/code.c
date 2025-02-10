@@ -8,11 +8,12 @@ int main() {
     for(int i=0;i<32;i++){
         lsb=(a>>i)&1;
         if(lsb==1){
-            printf("%d",i);
+    
             break;
         }
 
     }
+    printf("%d",32-i)
     
     return 0;
 }
