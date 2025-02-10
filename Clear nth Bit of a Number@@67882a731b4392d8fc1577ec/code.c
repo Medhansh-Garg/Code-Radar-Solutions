@@ -12,7 +12,7 @@ int main() {
 
     }
     if(c==1){
-        int d=a-pow(2,b);
+        double d=a-pow(2,b);
         printf("%d",d);
     }
 
