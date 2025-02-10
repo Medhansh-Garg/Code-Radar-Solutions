@@ -3,6 +3,7 @@
 int main() {
     int a;
     int lsb;
+    scanf("%d",&a)
     
     for(int i=0;i<32;i++){
         lsb=(a>>i)&1;
