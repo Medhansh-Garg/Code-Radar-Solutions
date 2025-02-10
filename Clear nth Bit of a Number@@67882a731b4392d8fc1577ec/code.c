@@ -11,7 +11,7 @@ int main() {
 
     }
     if(c==1){
-        int d=a-pow(2,b)
+        int d=a-pow(2,b);
         printf("%d",b);
     }
 
