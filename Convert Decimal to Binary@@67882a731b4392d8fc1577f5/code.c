@@ -9,7 +9,7 @@ int main() {
     while(a>0){
         d=(int)a%10;
         if(d%2==0){
-            b=b*10;
+            b+=b*10;
         }
         else{
             b=b*10+1;
