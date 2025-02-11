@@ -5,7 +5,7 @@ void intToBin(int a) {
     int i = 0;
     if(a==0){
         printf("%d",0);
-        break;
+        return;
     }
 
     while (a > 0) {
