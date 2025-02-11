@@ -18,9 +18,7 @@ void intToBin(int a) {
 
 int main() {
     int a;
-    printf("Enter an integer: ");
-    scanf("%d", &a);
-    printf("Binary representation: ");
+    scanf("%d", &a)
     intToBin(a);
     return 0;
 }
