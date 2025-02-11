@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&a);
     int b=0;
     int d=0;
-    int arr[32];
+    int *arr;
     int i=0;
     int a=0;
     while(a>0){
