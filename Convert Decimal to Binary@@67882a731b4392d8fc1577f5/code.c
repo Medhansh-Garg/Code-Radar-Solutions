@@ -13,11 +13,9 @@ int main() {
         d=(int)a%10;
         arr[i]=d%2;
         i++;
-        a=i;
-
         
-
-    }
+}
+a=i;
     for(int i=a;i>=0;i-- ){
         printf("%d",i);
 
