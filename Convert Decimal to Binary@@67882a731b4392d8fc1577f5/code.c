@@ -1,24 +1,26 @@
 #include <stdio.h>
 
-int main() {
-    int a;
-    scanf("%d", &a);
-    int b = 0;
-    int d = 0;
-    int arr[10]; 
+void intToBin(int a) {
+    int bin[32];
     int i = 0;
 
-    while(a > 0) {
-        d = a % 10;
-        arr[i] = d % 2;
+    while (a > 0) {
+        bin[i] = a % 2;
+        a /= 2;
         i++;
-        a /= 10; 
     }
 
-    a = i;
-    for(int i = a - 1; i >= 0; i--) {
-        printf("%d", arr[i]);
+    
+    for (int j = i - 1; j >= 0; j--) {
+        printf("%d", bin[j]);
     }
+}
 
+int main() {
+    int a;
+    printf("Enter an integer: ");
+    scanf("%d", &a);
+    printf("Binary representation: ");
+    intToBin(a);
     return 0;
 }
