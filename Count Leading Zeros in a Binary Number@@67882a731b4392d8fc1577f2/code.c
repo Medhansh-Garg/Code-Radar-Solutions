@@ -5,7 +5,7 @@ int main() {
     int lsb;
     
     
-    scanf("%d", &a);
+    scanf("%u", &a);
 
     int pos = -1;  
     
