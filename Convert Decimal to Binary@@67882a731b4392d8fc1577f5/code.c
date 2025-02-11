@@ -3,6 +3,10 @@
 void intToBin(int a) {
     int bin[32];
     int i = 0;
+    if(a==0){
+        printf("%d",a);
+        break;
+    }
 
     while (a > 0) {
         bin[i] = a % 2;
