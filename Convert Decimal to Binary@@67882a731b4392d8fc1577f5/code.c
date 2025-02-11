@@ -18,7 +18,7 @@ void intToBin(int a) {
 
 int main() {
     int a;
-    scanf("%d", &a)
+    scanf("%d", &a);
     intToBin(a);
     return 0;
 }
