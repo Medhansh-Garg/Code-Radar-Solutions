@@ -6,17 +6,21 @@ int main() {
     scanf("%d",&a);
     int b=0;
     int d=0;
+    int arr[32];
+    int i=0;
+    int a=0;
     while(a>0){
         d=(int)a%10;
-        if(d%2==0){
-            b+=b*10;
-        }
-        else{
-            b*10+=+1;
-        }
-        a=a/10;
+        arr[i]=d%2;
+        i++;
+        a=i;
+
+        
 
     }
-    printf("%d",b);
+    for(int i=a;i>=0;i-- ){
+        printf("%d",i)
+
+    }
     return 0;
 }
