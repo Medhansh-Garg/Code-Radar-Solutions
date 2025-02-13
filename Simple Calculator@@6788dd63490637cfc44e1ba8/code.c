@@ -5,13 +5,13 @@ int main(){
     char o;
     scanf("%f %f %c",&a,&b,&o);
     if(o=='+'){
-        printf("%f",a+b);
+        printf("%d",a+b);
     }
     else if(o=='-'){
-        printf("%f",a-b);
+        printf("%d",a-b);
     }
     else if(o=='*'){
-        printf("%f",a*b);
+        printf("%d",a*b);
     }
     else if(o=='/')
     printf("%f",a/b);
