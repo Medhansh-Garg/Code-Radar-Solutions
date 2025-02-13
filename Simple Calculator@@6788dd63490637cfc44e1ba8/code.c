@@ -5,16 +5,16 @@ int main(){
     char o;
     scanf("%f %f %c",&a,&b,&o);
     if(o=='+'){
-        printf("%d",a+b);
+        printf("%d",(int)a+b);
     }
     else if(o=='-'){
-        printf("%d",a-b);
+        printf("%d",(int)a-b);
     }
     else if(o=='*'){
-        printf("%d",a*b);
+        printf("%d",(int)a*b);
     }
     else if(o=='/')
-    printf("%f",a/b);
+    printf("%d",(int)a/b);
     else{
         printf("Invalid Operation");
     }
