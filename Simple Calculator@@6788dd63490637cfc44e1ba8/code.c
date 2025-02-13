@@ -14,7 +14,8 @@ int main(){
         printf("%d",a*b);
     }
     else if(o=='/'){
-    printf("%d",a/b);
+    int x=a/b;
+    printf("%d",x);
     }
     else{
         printf("Invalid Operation");
