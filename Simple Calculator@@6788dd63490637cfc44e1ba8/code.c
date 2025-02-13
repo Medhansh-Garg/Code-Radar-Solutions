@@ -13,6 +13,11 @@ int main(){
     else if(o=='*'){
         printf("%d",a*b);
     }
+    else if(o=='/'){
+    
+    int c=a/b;
+    printf("%d",c);
+    }
     
     else{
         printf("error");
