@@ -20,6 +20,6 @@ int main(){
         else{
             printf("%s","Special Character");
         }
-    
+        return 0;
 
 }
