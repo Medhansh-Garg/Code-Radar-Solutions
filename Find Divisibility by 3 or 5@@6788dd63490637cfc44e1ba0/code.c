@@ -16,7 +16,7 @@ int main(){
         printf("Divisible by 5");
     
     else
-        printf("Neither");
+        printf("Not Diivisible");
     return 0;
 
     
