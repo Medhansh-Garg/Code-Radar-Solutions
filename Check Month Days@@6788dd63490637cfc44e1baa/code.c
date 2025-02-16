@@ -1,4 +1,4 @@
-#include<Stdio.h>
+#include<stdio.h>
 
 int main(){
     int i;
@@ -9,5 +9,5 @@ int main(){
     printf("%d",28);
     else
     printf("%d",30);
-    
+
 }
