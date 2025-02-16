@@ -10,6 +10,6 @@ int main(){
     else if(i==4||i==6||i==9||i==11)
     printf("%d",30);
     else
-    printf("Invalid month")
+    printf("Invalid month");
 
 }
