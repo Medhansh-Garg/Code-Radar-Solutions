@@ -1,0 +1,17 @@
+#include<Stdio.h>
+
+int main(){
+    int a;
+    scanf("%d",&a);
+    for(int i=1;i<=a;i++){
+        for(int j=i;j<=(a-i)/2;j++){
+            printf(" ");
+        }
+        for(int j-i;j<=i;j++){
+            printf("*");
+        }
+
+    }
+    return 0;
+
+}
