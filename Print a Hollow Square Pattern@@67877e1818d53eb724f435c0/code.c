@@ -11,7 +11,7 @@ int main(){
         }
     else{
         for(int j=1;j<=n;j++){
-            if(j==1 || j==(n-1))
+            if(j==1 || j==(n-1)){
                 printf("*");
             }
             else{
