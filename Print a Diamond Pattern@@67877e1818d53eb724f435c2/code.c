@@ -13,8 +13,9 @@ int main(){
         printf("\n");
 
     }
-    printf(" ");
+    
     for(int i=a-1;i>0;i--){
+        printf(" ");
         for(int j=1;j<(a-i);j++){
             printf(" ");
         }
